@@ -8,7 +8,7 @@ if (query1==='yes' || query1==='y' ) {
 } else if (query1==='no' || query1==='n') {
   alert('Wrong! He has been shredding since the dawn of history');
 } else {
-  alert('Stop being a child');
+  alert('Stop being a child'); + alert('You disappoint me'); +alert('Your childishness will be met by spamming');. +alert('I hope you are satisfied with your life decision');, +alert('This can go on forever, like the Highlander');
 }
 var query2= prompt('Does Adrian like the Big Bang Theory?').toLowerCase();
 if (query2==='yes' || query2==='y') {
