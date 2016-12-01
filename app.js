@@ -43,3 +43,17 @@ if(query5==='yes' || query5==='y') {
 } else {
   alert('If you are unable to adhere to the conventions of my low level coding, then I will have to resort to Stalinist methods');
 }
+var pets= 4
+console.log(userInput);
+while(pets>0){
+  pets=pets-1;
+var userInput= parseInt(prompt('How many pets do I have?'));
+if (userInput === 4) {
+  alert ('Correct!') + then (pets>0);
+} else if (userInput<4) {
+  alert ('Too low!');
+}
+else if (userInput>4) {
+  alert ('Too high!');
+}
+}
