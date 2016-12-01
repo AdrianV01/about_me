@@ -57,3 +57,10 @@ else if (userInput>4) {
   alert ('Too high!');
 }
 }
+var cities = ['Glasgow', 'Edinburgh', 'Bergen', 'Krasnodar', 'Moscow', 'Cadiz']
+var query7= prompt('In which cities have you lived?')
+if (query7 = cities[i]) {
+ alert('Correct, That is indeed one city to which I have sojourned');
+else {
+alert ('No, try again');
+} for ( i = 0, i < cities.length, i++ )
