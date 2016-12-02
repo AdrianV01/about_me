@@ -2,33 +2,33 @@
 //The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
 
 var query1 = prompt('Does Adrian play guitar?').toLowerCase();
-if (query1==='yes' || query1==='y' ) {
+if (query1 ==='yes' || query1 ==='y' ) {
   alert('Yes, and he sweeps like a champion');
 
-} else if (query1==='no' || query1==='n') {
+} else if (query1 ==='no' || query1 ==='n') {
   alert('Wrong! He has been shredding since the dawn of history');
 } else {
   alert('Stop being a child'); + alert('You disappoint me'); + alert('Your childishness will be met by spamming'); + alert('I hope you are satisfied with your life decision'); + alert('This can go on forever, like the Highlander');
 }
 var query2= prompt('Does Adrian like the Big Bang Theory?').toLowerCase();
-if (query2==='yes' || query2==='y') {
+if (query2 ==='yes' || query2 ==='y') {
   alert('I thought we were better than that');
-} else if (query2=== 'no' || query2=== 'n') {
+} else if (query2 === 'no' || query2 === 'n') {
   alert('Correct, his hatred for that show will never die');
 } else {
   alert('Your response is invalid and I do not love you anymore');
 }
-var query3= prompt('Has Adrian ever studied abroad?').toLowerCase();
-if(query3==='yes' || query3==='y') {
+var query3 = prompt('Has Adrian ever studied abroad?').toLowerCase();
+if(query3 ==='yes' || query3 ==='y') {
   alert('Correct, he studied in Russia and it was glorious');
 }
-else if (query3==='no' || query3==='n'){
+else if (query3 ==='no' || query3 ==='n'){
   alert('Incorrect. You are speaking of a man of the world. Clearly you do not know him well at all.');
 } else {
   alert('My ego demands that you take these questions more seriously'); + console.log ('The console does not approve of you and it has been logged as such');
 }
 var query4= prompt('Did Adrian ever get lost in the middle of Spain and have to speak to a nearly toothless old man in Spanish to get nearly incomprehensible directions to Sevilla?').toLowerCase();
-if(query4==='yes' || query4==='y') {
+if(query4 ==='yes' || query4 ==='y') {
   alert('Actually, yes. Was it the extraneous detail that clued you in?');
 } else if (query4==='no' || query4==='n'){
   alert('To call upon a cliche, the truth is stranger than fiction');
@@ -36,31 +36,10 @@ if(query4==='yes' || query4==='y') {
   alert('You should apply that creativity to coding'); + console.log('The alert was friendly enough, but hidden scorn lurks in the console.');
 }
 var query5= prompt('Does Adrian enjoy country music?').toLowerCase();
-if(query5==='yes' || query5==='y') {
+if(query5 ==='yes' || query5 ==='y') {
   alert('In the words of the Macho Man Randy Savage, you and I have never been friends');
-} else if (query5==='no' || query5==='n') {
+} else if (query5 ==='no' || query5 ==='n') {
   alert('You may know me well enough that I will consider letting you be one of the tag team champions with me');
 } else {
   alert('If you are unable to adhere to the conventions of my low level coding, then I will have to resort to Stalinist methods');
 }
-var pets= 4
-console.log(userInput);
-while(pets>0){
-  pets=pets-1;
-var userInput= parseInt(prompt('How many pets do I have?'));
-if (userInput === 4) {
-  alert ('Correct!') + then (pets>0);
-} else if (userInput<4) {
-  alert ('Too low!');
-}
-else if (userInput>4) {
-  alert ('Too high!');
-}
-}
-var cities = ['Glasgow', 'Edinburgh', 'Bergen', 'Krasnodar', 'Moscow', 'Cadiz']
-var query7= prompt('In which cities have you lived?')
-if (query7 = cities[i]) {
- alert('Correct, That is indeed one city to which I have sojourned');
-else {
-alert ('No, try again');
-} for ( i = 0, i < cities.length, i++ )
