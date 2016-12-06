@@ -72,9 +72,10 @@ if (citiesVisited[i] !== queryCities){
 attempts++;
  console.log(attempts);
  }
- else {
-   alert('That is incorrect, and your tries have expired. Out of pity, I shall tell you that I have visited' + citiesVisited);
+
 
  }
+ if (attempts = 6) {
+   alert('That is incorrect, and your tries have expired. Out of pity, I shall tell you that I have visited' + citiesVisited);
   }
   alert ('Congratulations, you got' + counter + 'out of 7 questions correct');
