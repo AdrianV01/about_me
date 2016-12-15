@@ -1,0 +1,1 @@
+Today was a fairly light day as far as the actual assignment was concerned, and being paired with a competent partner made it much easier for me(as I'm certainly far from competent at this point). I don't know that I necessarily learned all that much, but it was valuable to get a different perspective on how to break down a problem.
